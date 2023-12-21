@@ -14,6 +14,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class Level1 extends AppCompatActivity {
 
@@ -50,8 +51,24 @@ public class Level1 extends AppCompatActivity {
                 dialog.setContentView(R.layout.menudialog);
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.setCancelable(false);
+
+                //кнопка
+                TextView btn_close = (TextView) dialog.findViewById(R.id.btnclose);
+                btn_close.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        try{
+                            Intent intent = new Intent(Level1.this, GameLevels.class);
+                            startActivity(intent);
+                            finish();
+                        }catch (Exception e){
+
+                        }
+                    }
+                });
+                //
                 dialog.show();
-            }
+            }   
         });
     }
 }
