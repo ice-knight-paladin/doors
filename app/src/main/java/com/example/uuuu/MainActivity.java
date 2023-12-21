@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
         else{
-            backtoast = Toast.makeText(getBaseContext(), "Нажмите еще раз, чтобы выйти", Toast.LENGTH_SHORT);
+            backtoast = Toast.makeText(getBaseContext(), getString(R.string.exit), Toast.LENGTH_SHORT);
             backtoast.show();
         }
 

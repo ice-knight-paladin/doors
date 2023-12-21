@@ -3,4 +3,7 @@
     <string name="start">Начать</string>
     <string name="back">Назад</string>
     <string name="level">Уровень: </string>
+    <string name="exit">Нажмите еще раз, чтобы выйти</string>
+    <string name="pass">𝓟𝓐𝓢𝓢𝓔𝓓</string>
+    <string name="textnext">NEXT</string>
 </resources>
