@@ -67,6 +67,20 @@ public class Level1 extends AppCompatActivity {
                     }
                 });
                 //
+                Button btn_next = dialog.findViewById(R.id.btnnext);
+                btn_next.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        try {
+                            Intent intent = new Intent(Level1.this, Level2.class);
+                            startActivity(intent);
+                            finish();
+                        }catch (Exception e){
+
+                        }
+                    }
+                });
+
                 dialog.show();
             }   
         });
