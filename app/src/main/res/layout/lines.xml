@@ -36,26 +36,26 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@drawable/pramo"
-                    android:id="@+id/p1">
+                    android:background="@drawable/ugol4"
+                    android:id="@+id/p11">
+                </ImageView>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/ugol2"
+                    android:id="@+id/p12">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@drawable/pramo"
-                    android:id="@+id/p2">
+                    android:id="@+id/p13">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:background="@drawable/pramo"
-                    android:id="@+id/p3">
-                </ImageView>
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:background="@drawable/pramo"
-                    android:id="@+id/p4">
+                    android:id="@+id/p14">
                 </ImageView>
             </LinearLayout>
             <LinearLayout
@@ -66,21 +66,25 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p21"
+                    android:background="@drawable/ugol3">
+                </ImageView>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/p22"
                     android:background="@drawable/pramo">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@drawable/pramo">
+                    android:id="@+id/p23"
+                    android:background="@drawable/ugol1">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@drawable/pramo">
-                </ImageView>
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:id="@+id/p24"
                     android:background="@drawable/pramo">
                 </ImageView>
             </LinearLayout>
@@ -92,21 +96,25 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p31"
                     android:background="@drawable/pramo">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p32"
                     android:background="@drawable/pramo">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@drawable/pramo">
+                    android:id="@+id/p33"
+                    android:background="@drawable/pramo2">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p34"
                     android:background="@drawable/pramo">
                 </ImageView>
             </LinearLayout>
@@ -118,25 +126,28 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p41"
                     android:background="@drawable/pramo">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p42"
                     android:background="@drawable/pramo">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:background="@drawable/pramo">
+                    android:id="@+id/p43"
+                    android:background="@drawable/pramo2">
                 </ImageView>
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
+                    android:id="@+id/p44"
                     android:background="@drawable/pramo">
                 </ImageView>
             </LinearLayout>
         </LinearLayout>
-
     </LinearLayout>
 </RelativeLayout>
