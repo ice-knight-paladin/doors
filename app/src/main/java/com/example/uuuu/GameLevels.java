@@ -1,6 +1,7 @@
 package com.example.uuuu;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -12,10 +13,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class GameLevels extends AppCompatActivity {
 
+    MediaPlayer mediaPlayer;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gamelevels);
+        mediaPlayer = MediaPlayer.create(this, R.raw.back_main);
+        mediaPlayer.start();
+
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
