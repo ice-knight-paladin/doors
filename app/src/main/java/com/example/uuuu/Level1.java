@@ -27,6 +27,8 @@ public class Level1 extends AppCompatActivity {
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        TextView textView = findViewById(R.id.text_level);
+        textView.setText(getString(R.string.level) + "1");
 
         Button btn_back = findViewById(R.id.button_ba);
         Level1 a = this;

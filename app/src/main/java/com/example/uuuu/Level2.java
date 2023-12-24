@@ -26,12 +26,13 @@ public class Level2 extends AppCompatActivity {
     Dialog dialog1;
     int i12, i11, i21, i22, i23, i33, i43;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_level2);
+        TextView textView = findViewById(R.id.text_level);
+        textView.setText(getString(R.string.level) + "2");
 
 
         Window w = getWindow();
