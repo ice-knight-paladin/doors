@@ -3,6 +3,7 @@ package com.example.uuuu;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -15,10 +16,21 @@ public class MainActivity extends AppCompatActivity {
     private long backPressedTime;
     private Toast backtoast;
 
+    MediaPlayer mediaPlayer;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mediaPlayer = MediaPlayer.create(this, R.raw.back_main);
+        mediaPlayer.start();
+//        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+//            @Override
+//            public void onCompletion(MediaPlayer mediaPlayer) {
+//                stopPlay();
+//            }
+//        });
 
         Window w = getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);

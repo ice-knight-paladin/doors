@@ -36,6 +36,97 @@ public class lvel2_dop extends AppCompatActivity {
         imageView33.setRotation(90);
         imageView43.setRotation(270);
 
+        ImageView imageView14 = findViewById(R.id.p14);
+        ImageView imageView24 = findViewById(R.id.p24);
+        ImageView imageView31 = findViewById(R.id.p31);
+        ImageView imageView32 = findViewById(R.id.p32);
+        ImageView imageView34 = findViewById(R.id.p34);
+        ImageView imageView41 = findViewById(R.id.p41);
+        ImageView imageView42 = findViewById(R.id.p42);
+        ImageView imageView44 = findViewById(R.id.p44);
+
+        imageView14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView14.setRotation(90 + imageView14.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView24.setRotation(90 + imageView24.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView31.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView31.setRotation(90 + imageView31.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView32.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView32.setRotation(90 + imageView32.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView34.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView34.setRotation(90 + imageView34.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView41.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView41.setRotation(90 + imageView41.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView42.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView42.setRotation(90 + imageView42.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+        imageView44.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try{
+                    imageView44.setRotation(90 + imageView44.getRotation());
+                }catch (Exception e){
+
+                }
+            }
+        });
+
+
         imageView12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
