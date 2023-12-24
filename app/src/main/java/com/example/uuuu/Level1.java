@@ -74,6 +74,7 @@ public class Level1 extends AppCompatActivity {
                     @Override
                     public void onClick(View view) {
                         try {
+                            dialog.dismiss();
                             Intent intent = new Intent(Level1.this, Level2.class);
                             startActivity(intent);
                             finish();

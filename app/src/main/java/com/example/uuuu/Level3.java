@@ -74,6 +74,7 @@ public class Level3 extends AppCompatActivity {
                                 @Override
                                 public void onClick(View view) {
                                     try{
+                                        dialog_next.dismiss();
                                         Intent intent = new Intent(Level3.this, GameLevels.class);
                                         startActivity(intent);
                                         finish();

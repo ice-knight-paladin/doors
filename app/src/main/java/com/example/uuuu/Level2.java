@@ -52,6 +52,8 @@ public class Level2 extends AppCompatActivity {
                 }
             }
         });
+
+
         ImageView image = findViewById(R.id.door1);
 
         image.setOnClickListener(new View.OnClickListener() {

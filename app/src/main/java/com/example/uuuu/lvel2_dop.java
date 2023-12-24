@@ -9,6 +9,7 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -243,21 +244,21 @@ public class lvel2_dop extends AppCompatActivity {
                     }
                 }
             });
-            //
-//                    Button btn_next = dialog.findViewById(R.id.btnnext);
-//                    btn_next.setOnClickListener(new View.OnClickListener() {
-//                        @Override
-//                        public void onClick(View view) {
-//                            try {
-//                                Intent intent = new Intent(Level2.this, Level2.class);
-//                                startActivity(intent);
-//                                finish();
-//                            }catch (Exception e){
-//
-//                            }
-//                        }
-//                    });
 
+            Button btn_next = dialog.findViewById(R.id.btnnext);
+            btn_next.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    try{
+                        dialog.dismiss();
+                        Intent intent = new Intent(lvel2_dop.this, Level3.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e){
+
+                    }
+                }
+            });
             dialog.show();
         }
     }
