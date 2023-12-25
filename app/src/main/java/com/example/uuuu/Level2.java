@@ -24,7 +24,6 @@ import android.widget.TextView;
 public class Level2 extends AppCompatActivity {
     Dialog dialog;
     Dialog dialog1;
-    int i12, i11, i21, i22, i23, i33, i43;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
